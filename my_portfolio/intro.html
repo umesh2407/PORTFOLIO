@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction</title>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+   
+    #intro {
+      background-color: transparent;
+      padding: 20px;
+      margin: 50px auto;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fade-in 1s ease-in-out forwards;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      opacity: 0;
+      animation: fade-in 1s ease-in-out forwards;
+      animation-delay: 0.5s;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.5;
+      opacity: 0;
+      animation: fade-in 1s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+
+    .decorative-line {
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, #131313, #1a1a0e);
+      margin: 20px 0;
+      opacity: 0;
+      animation: line-appear 1s ease-in-out forwards;
+      animation-delay: 1s;
+    }
+
+    @keyframes line-appear {
+      0% {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+      100% {
+        opacity: 1;
+        transform: scaleX(1);
+      }
+    }
+
+    
+
+    @keyframes button-appear {
+      0% {
+        opacity: 0;
+        transform: scale(0);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="intro">
+    <h1>Welcome !</h1>
+    <div class="decorative-line"></div>
+    <p>
+      Hello, I'm Umesh Choudhary, a web developer with a passion for creating interactive and user-friendly websites.
+      I have experience in HTML, CSS, JavaScript, and various web frameworks.
+    </p>
+    <p>
+      Throughout my career, I've had the opportunity to work on several exciting projects, ranging from small websites to all my 
+      college projects.
+    </body>

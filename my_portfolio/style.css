@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400;500&family=Dancing+Script&family=EB+Garamond:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg1.jpg');
+    
+     
+        background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      
+     
+}
+
+
+.sidebar {
+     background-color: rgb(255, 251, 251);
+   
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+
+.sidebar nav {
+    padding: 20px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 35px 0;
+    
+}
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main {
+    /* background-color: rgb(245, 248, 90); */
+    width: 90vw;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: transparent;
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img {
+    background-color: transparent;
+    width: 318px;
+
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    color: rgb(11, 11, 11);
+    font-size: 40px;
+}
+.name{
+    color:rgb(7, 7, 7);
+    font-size: 45px;
+}
+.about{
+    color: rgb(8, 8, 8);
+    font-size:22px;
+}
+.moreabout{
+    color: rgb(8, 8, 8);
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+.buttons{
+    margin-top: 32px;
+}
+.btn{
+    padding: 2px 6px;
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 213, 247);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-sm{
+    font-size: 17px;
+    
+}
+
+
+.btn:hover{
+    color: rgb(21, 36, 36);
+    background-color: rgb(156, 229, 245);
+    box-shadow: 0 2px 20px 0;
+}
+.contactform{
+    color: rgb(4, 4, 4);
+    padding: 0 167px;
+    padding-top:91px;
+ 
+    font-family: 'Caveat', cursive;
+    font-family: 'EB Garamond', serif;
+    font-size: 12px;
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.textbox{
+    margin-top: 30px;
+    margin-left: 226px;
+}
+.contactform h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    animation: fade-in 1s ease-in-out;
+    color: black;
+
+}
+.contactform form div{
+    
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;   
+}
+.contactform form div{
+    width: 14vw;
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 27px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(255, 244, 244);
+    margin: 0 5px;
+   padding: 3px 0 0 0;
+}
+#form-check{
+     
+    flex-direction: row;
+}
+#form-check input{
+width: 14px;
+margin: 3px 0;
+
+}
+
+
+input[type="text"] {
+    color: black;
+    margin-left: 100px
+}
+input[type="email"] {
+    color: black;
+    margin-left: 100px
+}
+input[type="tel"] {
+    color: black;
+    margin-left: 20px
+}
+.logo-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-container a {
+    margin: 0 10px;
+}
+.logo-container img {
+    width: 28px; 
+    height: auto; 
+}
+
+/* for intro */
+.intro{
+   padding: auto;
+    margin-top: 35px;
+    color:rgb(136, 245, 245) ;
+}
+.follow{
+    color:rgb(136, 245, 245) ;
+
+}

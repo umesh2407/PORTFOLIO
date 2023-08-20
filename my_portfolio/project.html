@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Projects - Portfolio</title>
+  
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+   
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      animation: fade-in 1s ease-in-out;
+      color: black;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    #project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .project {
+      width: 300px;
+      margin: 20px;
+      background-color: #bae0e7;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fade-in 1s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project h2 {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .project p {
+      margin: 10px 0;
+      color: #666;
+    }
+
+    .project button {
+      background-color: #0d0f0d;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .project button:hover {
+      background-color: rgb(52, 142, 142);
+    }
+  </style>
+</head>
+<body>
+
+
+  <div id="header">
+    <h1>Projects</h1>
+  </div>
+
+  
+
+  <div id="project-container">
+    <div class="project">
+      <h2>Portfolio</h2>
+      <p>Aesthetic and a complete project on portfolio made by me using only HTML, CSS, PHP.</p>
+      <a href="https://github.com/umesh2407/CODSOFT"><button>Details</button></a>
+    </div>
+
+    <div class="project">
+      <h2>College Placement System</h2>
+      <p>A complete full flashed website for placement system is designed by me using HTML, CSS , Javascript, PHP</p>
+      <a href="https://github.com/umesh2407/College_Placement_Service"><button>Details</button></a>
+    </div>
+
+    <div class="project">
+      <h2>Netflix Clone</h2>
+      <p>An exact Netlix website clone designed by me using only HTML and CSS</p>
+      <a href="https://github.com/umesh2407/Netflix-Clone"><button>Details</button></a>
+    </div>
+
+    <div class="project">
+      <h2>Java Development </h2>
+      <p>On topics like NUMBER GAME, ATM INTERFACE any many more.</p>
+      <a href="https://github.com/umesh2407/CODSOFT"><button>Details</button></a>
+    </div>
+  </div>
+
+ 
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Services - Portfolio</title>
+  
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+   
+    }
+
+    #header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #131211,rgb(136, 245, 245), #040a0c);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0;
+      animation: fade-in 1s ease-in-out;
+      color: black;
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    #services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .service {
+      width: 300px;
+      margin: 20px;
+      background-color: #bae0e7;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      animation: fade-in 1s ease-in-out;
+      transition: transform 0.3s ease-in-out;
+    }
+    .service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .service h2 {
+      font-size: 24px;
+      margin: 0;
+      color: #333;
+    }
+
+    .service p {
+      margin: 10px 0;
+      color: #666;
+    }
+
+    .service button {
+      background-color: #111010;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .service button:hover {
+      background-color:rgb(52, 142, 142);
+    }
+    
+  </style>
+</head>
+<body>
+
+
+  <div id="header">
+    <h1>Services</h1>
+  </div>
+
+  <div id="services-container">
+    <div class="service">
+      <h2>Front End Development</h2>
+      <p>Using my skills and high end tools I can provide you a futuristic looking WEB PAGES according to your need.</p>
+      <button>Contact</button>
+    </div>
+
+    <div class="service">
+      <h2>Web Development</h2>
+      <p>Provide full Website with frontend and backend according to your needs.</p>
+      <button>Contact</button>
+    </div>
+
+    <div class="service">
+      <h2>Web Design</h2>
+      <p>Provides an immense effects and inetrface in your Website according to your needs.</p>
+      <button>Contact</button>
+    </div>
+
+    <div class="service">
+      <h2>WEB Re-Design </h2>
+      <p>Provides most of the functionalities which want to add in your Website in aesthetic manner.</p>
+      <button>Contact</button>
+    </div>
+  </div>
+
+  
+</body>
+</html>
